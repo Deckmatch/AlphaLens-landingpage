@@ -3,49 +3,45 @@ import type { NavItem } from '@nuxt/content'
 
 const navigation = inject<Ref<NavItem[]>>('navigation', ref([]))
 
-const links = [{
-  label: 'Docs',
-  to: '/docs'
-}, {
-  label: 'Pricing',
-  to: '/pricing'
-}, {
-  label: 'Blog',
-  to: '/blog'
-}]
+const links = [
+//   {
+//   label: 'Docs',
+//   to: '/docs'
+// }, {
+//   label: 'Pricing',
+//   to: '/pricing'
+// }, {
+//   label: 'Blog',
+//   to: '/blog'
+// }
+]
 </script>
 
 <template>
   <UHeader :links="links">
     <template #logo>
-      Nuxt UI Pro <UBadge
-        label="SaaS"
-        variant="subtle"
-        class="mb-0.5"
-      />
+      <div class="max-w-32">
+
+        <Logo />
+      </div>
     </template>
 
     <template #right>
       <UButton
-        label="Sign in"
-        color="gray"
-        to="/login"
-      />
-      <UButton
-        label="Sign up"
+        label="Try it yourself"
         icon="i-heroicons-arrow-right-20-solid"
         trailing
         color="black"
-        to="/signup"
+        to="https://google.com"
         class="hidden lg:flex"
       />
     </template>
 
-    <template #panel>
+    <!-- <template #panel>
       <UNavigationTree
         :links="mapContentNavigation(navigation)"
         default-open
-      />
-    </template>
+      /> 
+    </template> -->
   </UHeader>
 </template>
