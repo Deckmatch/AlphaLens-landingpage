@@ -16,7 +16,7 @@ hero:
       to: https://github.com/nuxt-ui-pro/saas
       target: _blank
 sections:
-  - title: The power of our service
+  - title: The power of our servicio
     description: Aliqua labore laboris fugiat. Reprehenderit exercitation eu commodo. Officia nostrud sit et aliqua ea ex sunt minim incididunt sunt.
     id: features
     align: left
