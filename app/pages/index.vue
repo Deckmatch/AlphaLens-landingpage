@@ -59,9 +59,9 @@ useSeoMeta({
       </template>
     </ULandingHero>
 
-    <ULandingSection class="!pt-0">
+    <!-- <ULandingSection class="!pt-0">
       <ImagePlaceholder />
-    </ULandingSection>
+    </ULandingSection> -->
 
     <ULandingSection
       v-for="(section, index) in page.sections"
@@ -71,7 +71,11 @@ useSeoMeta({
       :align="section.align"
       :features="section.features"
     >
-      <ImagePlaceholder />
+     <img
+        :src="section.image.url"
+        :alt="section.image.alt"
+        class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
+      /> 
     </ULandingSection>
 
     <ULandingSection
