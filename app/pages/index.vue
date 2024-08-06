@@ -50,6 +50,12 @@ useSeoMeta({
           />
         </UBadge>
       </template>
+      <template v-if="page.hero.image">
+        <img
+          :src="page.hero.image"
+          class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
+        /> 
+      </template>
     </ULandingHero>
 
     <ULandingSection class="!pt-0">
