@@ -72,6 +72,7 @@ useSeoMeta({
       :features="section.features"
     >
      <img
+        v-if="section.image.url"
         :src="section.image.url"
         :alt="section.image.alt"
         class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
