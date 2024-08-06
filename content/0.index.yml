@@ -112,16 +112,21 @@ testimonials:
         avatar:
           src: https://i.pravatar.cc/120?img=9
           loading: lazy
+faq:
+  headline: Testimonials
+  title: Frequently asked questions.
+  description: Proident sunt exercitation minim laborum enim laboris labore esse.
+  items:
+    - label: Nostrud tempor sunt fugiat.
+      content: "Eiusmod dolor aute ut nulla pariatur officia consequat aute amet exercitation"
+    - label: Nostrud labore ullamco enim excepteur. .
+      content: "Eiusmod dolor aute ut nulla pariatur officia consequat aute amet exercitation. Dolor in sint dolore labore non occaecat adipisicing Lorem labore ullamco enim excepteur. In fugiat Lorem sit velit id veniam esse eiusmod non ea voluptate cupidatat reprehenderit ullamco dolore. Mollit laborum occaecat aliquip"
+    - label: Nostrud tempor sunt fugiat. .
+      content: "Eiusmod dolor aute ut nulla pariatur officia consequat aute amet exercitation"
+    - label: Dolor in sint dolore labore non occaecat.
+      content: "Eiusmod dolor aute ut nulla pariatur "
 cta:
   title: Get started today
-  description: Nisi mollit id aliquip sunt est laborum sit sit.
-  links:
-    - label: Buy now
-      size: xl
-      color: black
-      to: https://vg.no
-faq:
-  title: Frequently asked questions
   description: Nisi mollit id aliquip sunt est laborum sit sit.
   links:
     - label: Buy now

@@ -99,6 +99,15 @@ useSeoMeta({
       </UPageColumns>
     </ULandingSection>
 
+    <ULandingSection
+      :headline="page.faq.headline"
+      :title="page.faq.title"
+      :description="page.faq.description"
+    >
+      <ULandingFAQ :items="page.faq.items" multiple />
+     
+
+    </ULandingSection>
     <ULandingSection>
       <ULandingCTA
         v-bind="page.cta"
