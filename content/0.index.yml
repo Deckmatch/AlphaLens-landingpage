@@ -9,7 +9,7 @@ hero:
     url: /Light.png
     alt: Placeholder for product screenshot
   headline:
-    label: Made by the cracked engineers at Deckmatch
+    label: Made by the cracked engineers @ Deckmatch
     to: https://deckmatch.com
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
