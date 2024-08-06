@@ -52,7 +52,8 @@ useSeoMeta({
       </template>
       <template v-if="page.hero.image">
         <img
-          :src="page.hero.image"
+          :src="page.hero.image.url"
+          :alt="page.hero.image.alt"
           class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
         /> 
       </template>
