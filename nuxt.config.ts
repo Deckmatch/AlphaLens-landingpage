@@ -12,6 +12,29 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-og-image'
   ],
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '32x32',
+          href: '/favicon-32x32.png',
+        },
+        {
+          rel: 'apple-touch-icon',
+          sizes: '180x180',
+          href: '/apple-touch-icon.png',
+        },
+        { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#fff' },
+      ],
+      meta: [
+        { name: 'msapplication-TileColor', content: '#da532c' },
+        { name: 'theme-color', content: '#ffffff' },
+      ],
+    },
+  },
 
   hooks: {
     // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
