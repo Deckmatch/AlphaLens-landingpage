@@ -4,6 +4,9 @@ navigation: false
 hero:
   title: Outfox your competition
   description: Enter your work email. Get a razor-sharp competitive landscape in seconds. Refine. Download. Conquer.
+  image:
+    url: /Light.png
+    alt: a screenshot of the product
   headline:
     label: Made by the cracked engineers at Deckmatch
     to: https://deckmatch.com
@@ -16,8 +19,6 @@ hero:
       to: https://github.com/nuxt-ui-pro/saas
       target: _blank
       trailing: true
-      
-
 
 sections:
   - title: The power of our servicio
@@ -34,6 +35,7 @@ sections:
       - name: Secure
         description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing.
         icon: i-heroicons-lock-closed
+    
   - title: The speed of our service
     description: Cillum sint enim excepteur ut deserunt qui nisi in deserunt in. Deserunt aliquip quis aliquip eu quis ex velit velit nostrud sit.
     align: right
