@@ -17,7 +17,7 @@ hero:
       icon: i-heroicons-arrow-long-right-solid
       size: xl
       color: black
-      to: #
+      to: https://vg.no
       target: _blank
       trailing: true
 
