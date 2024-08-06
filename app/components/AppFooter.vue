@@ -1,38 +1,40 @@
 <script setup lang="ts">
-const links = [{
-  label: 'Resources',
-  children: [{
-    label: 'Help center'
-  }, {
-    label: 'Docs'
-  }, {
-    label: 'Roadmap'
-  }, {
-    label: 'Changelog'
-  }]
-}, {
-  label: 'Features',
-  children: [{
-    label: 'Affiliates'
-  }, {
-    label: 'Portal'
-  }, {
-    label: 'Jobs'
-  }, {
-    label: 'Sponsors'
-  }]
-}, {
-  label: 'Company',
-  children: [{
-    label: 'About'
-  }, {
-    label: 'Pricing'
-  }, {
-    label: 'Careers'
-  }, {
-    label: 'Blog'
-  }]
-}]
+const links = [
+//   {
+//   label: 'Resources',
+//   children: [{
+//     label: 'Help center'
+//   }, {
+//     label: 'Docs'
+//   }, {
+//     label: 'Roadmap'
+//   }, {
+//     label: 'Changelog'
+//   }]
+// }, {
+//   label: 'Features',
+//   children: [{
+//     label: 'Affiliates'
+//   }, {
+//     label: 'Portal'
+//   }, {
+//     label: 'Jobs'
+//   }, {
+//     label: 'Sponsors'
+//   }]
+// }, {
+//   label: 'Company',
+//   children: [{
+//     label: 'About'
+//   }, {
+//     label: 'Pricing'
+//   }, {
+//     label: 'Careers'
+//   }, {
+//     label: 'Blog'
+//   }]
+// }
+]
 
 const toast = useToast()
 
@@ -57,7 +59,7 @@ function onSubmit() {
   <UFooter>
     <template #top>
       <UFooterColumns :links="links">
-        <template #right>
+        <!-- <template #right>
           <form @submit.prevent="onSubmit">
             <UFormGroup
               label="Subscribe to our newsletter"
@@ -87,26 +89,27 @@ function onSubmit() {
             </UFormGroup>
           </form>
         </template>
+        -->
       </UFooterColumns>
-    </template>
+    </template> 
 
     <template #left>
       <p class="text-gray-500 dark:text-gray-400 text-sm">
-        Copyright © {{ new Date().getFullYear() }}. All rights reserved.
+        Copyright © {{ new Date().getFullYear() }}. <a href="https://deckmatch.com" target="_blank">Deckmatch, Inc.</a>
       </p>
     </template>
 
     <template #right>
       <UColorModeButton size="sm" />
 
-      <UButton
+      <!-- <UButton
         to="https://github.com/nuxt-ui-pro/saas"
         target="_blank"
         icon="i-simple-icons-github"
         aria-label="GitHub"
         color="gray"
         variant="ghost"
-      />
+      /> -->
     </template>
   </UFooter>
 </template>
