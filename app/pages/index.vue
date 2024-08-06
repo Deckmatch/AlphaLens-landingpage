@@ -71,12 +71,13 @@ useSeoMeta({
       :align="section.align"
       :features="section.features"
     >
-     <img
-        v-if="section.image.url"
-        :src="section.image.url"
-        :alt="section.image.alt"
-        class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
-      /> 
+      <template v-if="section.image">
+        <img
+          :src="section.image.url"
+          :alt="section.image.alt"
+          class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
+        /> 
+      </template>
     </ULandingSection>
 
     <ULandingSection
