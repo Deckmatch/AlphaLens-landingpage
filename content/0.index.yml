@@ -1,141 +1,139 @@
-title: Nuxt UI Pro - SaaS template
-description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+title: AlphaLens - Competitive Intelligence Platform
+description: AlphaLens provides razor-sharp competitive landscape analysis in seconds. Refine. Download. Conquer.
 navigation: false
+
 hero:
-  title: Outfox your competition
+  title: Who's Secretly Copying Your Product?
   description: Enter your work email. Get a razor-sharp competitive landscape in seconds. Refine. Download. Conquer.
   image:
     url: /Light.png
-    alt: a screenshot of the product
+    alt: Placeholder for product screenshot
   headline:
-    label: Made by the cracked engineers at Deckmatch
+    label: Made by the cracked engineers @ Deckmatch
     to: https://deckmatch.com
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
-    - label: Get started for free
+    - label: Request Demo
       icon: i-heroicons-arrow-long-right-solid
       size: xl
-      color: gray
-      to: https://github.com/nuxt-ui-pro/saas
+      color: black
+      to: https://deckmatch.com
       target: _blank
       trailing: true
 
 sections:
-  - title: The power of our servicio
-    description: Aliqua labore laboris fugiat. Reprehenderit exercitation eu commodo. Officia nostrud sit et aliqua ea ex sunt minim incididunt sunt.
-    id: features
-    align: left
-    features:
-      - name: Easy to use
-        description: Id laborum laboris duis nostrud excepteur ut velit.
-        icon: i-heroicons-cog
-      - name: Reliable
-        description: Magna Lorem ex cillum fugiat ad enim aute irure sit duis minim.
-        icon: i-heroicons-check
-      - name: Secure
-        description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing.
-        icon: i-heroicons-lock-closed
-    
-  - title: The speed of our service
-    description: Cillum sint enim excepteur ut deserunt qui nisi in deserunt in. Deserunt aliquip quis aliquip eu quis ex velit velit nostrud sit.
+  - title: X-ray Vision
+    description: Get a birds eye view of your competitors with our x-ray vision
+    id: xray-vision
     align: right
+    image:
+      url: /Light.png
+      alt: X-ray vision feature illustration
     features:
-      - name: Fast
-        description: Qui reprehenderit nostrud dolore nisi ad fugiat labore eiusmod.
-        icon: i-heroicons-rocket-launch
-      - name: Affordable
-        description: Reprehenderit fugiat elit in do ipsum ut pariatur.
-        icon: i-heroicons-currency-dollar
-      - name: Scalable
-        description: Lorem deserunt et eiusmod. Ea in consectetur minim officia.
+      - name: Pinpoint
+        description: Identify key competitors in your space
+        icon: i-heroicons-pointing-in-solid
+      - name: Analyze
+        description: Dig deep into competitor strategies and tactics
         icon: i-heroicons-chart-bar
+      - name: Benchmark
+        description: Compare your performance against industry leaders
+        icon: i-heroicons-scale
+
+  - title: Semantic Scoring
+    description: Uncover hidden intelligence with our semantic scoring
+    id: semantic-scoring
+    align: left
+    image:
+      url: /Light.png
+      alt: Semantic scoring feature illustration
+    features:
+      - name: Cognitive Data
+        description: Leverage AI to extract meaningful insights
+        icon: i-heroicons-brain
+      - name: Patterns
+        description: Identify trends and patterns in competitor behavior
+        icon: i-heroicons-puzzle-piece
+      - name: Actionable Insights
+        description: Get clear, actionable recommendations
+        icon: i-heroicons-light-bulb
+
+  - title: Competitive Intelligence
+    description: Stay ahead of the curve with real-time competitive intelligence
+    id: competitive-intelligence
+    align: right
+    image:
+      url: /Light.png
+      alt: Competitive intelligence feature illustration
+    features:
+      - name: Monitor
+        description: Track competitor moves in real-time
+        icon: i-heroicons-eye
+      - name: Predict
+        description: Anticipate future market trends
+        icon: i-heroicons-chart-bar-square
+      - name: Adapt
+        description: Quickly adjust your strategy based on new data
+        icon: i-heroicons-arrows-right-left
+
 features:
-  title: Why choose our service?
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  title: Why use our service?
+  description: Our comprehensive suite of tools gives you the edge in today's competitive market.
   items:
     - title: Easy to use
-      description: Id laborum laboris duis nostrud excepteur ut velit nulla magna Lorem proident non.
-      icon: i-heroicons-cog
+      description: Intuitive interface designed for quick adoption and seamless integration.
+      icon: i-heroicons-cursor-arrow-rays
     - title: Reliable
-      description: Magna Lorem ex cillum fugiat ad enim aute irure sit duis minim.
-      icon: i-heroicons-check
+      description: Consistently deliver accurate and up-to-date competitive intelligence.
+      icon: i-heroicons-shield-check
     - title: Secure
-      description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing non anim ullamco.
+      description: Your data is protected with enterprise-grade security measures.
       icon: i-heroicons-lock-closed
     - title: Fast
-      description: Qui reprehenderit nostrud dolore nisi ad fugiat labore eiusmod sint aliquip nisi voluptate.
-      icon: i-heroicons-rocket-launch
+      description: Get real-time insights to stay ahead of market changes.
+      icon: i-heroicons-bolt
     - title: Affordable
-      description: Reprehenderit fugiat elit in do ipsum ut pariatur.
+      description: Competitive pricing to fit businesses of all sizes.
       icon: i-heroicons-currency-dollar
     - title: Scalable
-      description: Lorem deserunt et eiusmod. Ea in consectetur minim officia ullamco enim deserunt est.
-      icon: i-heroicons-chart-bar
+      description: Our solution grows with your business needs.
+      icon: i-heroicons-arrow-trending-up
+
 testimonials:
-  headline: Testimonials
-  title: What our customers are saying.
-  description: Proident sunt exercitation minim laborum enim laboris labore esse.
+  headline: What founders are saying
+  title: Real stories from real customers
+  description: See how AlphaLens is transforming competitive intelligence for businesses worldwide.
   items:
-    - quote: Nostrud tempor sunt fugiat. Dolor in sint dolore labore non occaecat adipisicing Lorem labore ullamco enim excepteur. In fugiat Lorem sit velit id veniam esse eiusmod non ea voluptate cupidatat reprehenderit ullamco dolore. Mollit laborum occaecat aliquip.
+    - quote: AlphaLens has been a game-changer for our competitive strategy. We now have insights we never thought possible.
       author:
-        name: Rose Roberson
-        description: CEO at Company
+        name: Jane Doe
+        description: CEO at TechCorp
         avatar:
           src: https://i.pravatar.cc/120?img=1
           loading: lazy
-    - quote: Eiusmod dolor aute ut nulla pariatur officia consequat aute amet exercitation.
+    - quote: The depth of analysis provided by AlphaLens is unparalleled. It's like having a team of analysts at your fingertips.
       author:
-        name: Chace Rodgers
-        description: CEO at Company
+        name: John Smith
+        description: Founder of StartUp Inc.
         avatar:
-          src: https://i.pravatar.cc/120?img=7
+          src: https://i.pravatar.cc/120?img=2
           loading: lazy
-    - quote: Id duis velit enim officia ad nisi incididunt magna ex dolor minim deserunt dolor. Esse incididunt cillum nostrud esse do quis amet labore amet nulla eiusmod amet nulla Lorem. Incididunt ex voluptate irure officia laboris ea proident est qui.
+    - quote: We've been able to stay two steps ahead of our competitors thanks to AlphaLens. It's an indispensable tool for any serious business.
       author:
-        name: Cornelius Sheppard
-        description: CEO at Company
+        name: Emma Wilson
+        description: CMO at GrowthCo
         avatar:
           src: https://i.pravatar.cc/120?img=3
           loading: lazy
-    - quote: Velit consectetur in adipisicing culpa eiusmod commodo eu ex dolore. Officia irure nisi dolor dolore velit fugiat. Aliqua sint aliqua aute elit eu sunt.
-      author:
-        name: Destinee Woods
-        description: CEO at Company
-        avatar:
-          src: https://i.pravatar.cc/120?img=5
-          loading: lazy
-    - quote: Proident quis deserunt qui ex exercitation veniam id Lorem est cupidatat ipsum irure aliquip ad.
-      author:
-        name: Kaleb Mccormick
-        description: CEO at Company
-        avatar:
-          src: https://i.pravatar.cc/120?img=8
-          loading: lazy
-    - quote: Magna officia quis ea ea in officia non voluptate ipsum culpa do labore sunt. Aute est dolore commodo sint officia ad laboris dolor magna aliquip exercitation tempor commodo.
-      author:
-        name: Jazmin Mccall
-        description: CEO at Company
-        avatar:
-          src: https://i.pravatar.cc/120?img=9
-          loading: lazy
+
 faq:
-  headline: Testimonials
-  title: Frequently asked questions.
-  description: Proident sunt exercitation minim laborum enim laboris labore esse.
+  headline: FAQ
+  title: Frequently asked questions
+  description: Find answers to common questions about our competitive intelligence platform.
   items:
-    - label: Nostrud tempor sunt fugiat.
-      content: "Eiusmod dolor aute ut nulla pariatur officia consequat aute amet exercitation"
-    - label: Nostrud labore ullamco enim excepteur. .
-      content: "Eiusmod dolor aute ut nulla pariatur officia consequat aute amet exercitation. Dolor in sint dolore labore non occaecat adipisicing Lorem labore ullamco enim excepteur. In fugiat Lorem sit velit id veniam esse eiusmod non ea voluptate cupidatat reprehenderit ullamco dolore. Mollit laborum occaecat aliquip"
-    - label: Nostrud tempor sunt fugiat. .
-      content: "Eiusmod dolor aute ut nulla pariatur officia consequat aute amet exercitation"
-    - label: Dolor in sint dolore labore non occaecat.
-      content: "Eiusmod dolor aute ut nulla pariatur "
-cta:
-  title: Get started today
-  description: Nisi mollit id aliquip sunt est laborum sit sit.
-  links:
-    - label: Buy now
-      size: xl
-      color: black
-      to: https://vg.no
+    - label: Why is this a free service?
+      content: We offer a free tier to showcase the power of our platform. Premium features are available in paid plans.
+    - label: How accurate is your data?
+      content: Our data is sourced from multiple reliable channels and processed using advanced AI algorithms, ensuring high accuracy.
+    - label: How often is the data updated?
+      content: Our platform provides real-time updates, ensuring you always have the most cur
