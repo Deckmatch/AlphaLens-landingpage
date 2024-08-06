@@ -100,7 +100,8 @@ function onSubmit() {
     </template>
 
     <template #right>
-      <UColorModeButton size="sm" />
+      <!-- <UColorModeButton size="sm" /> -->
+      <UColorModeToggle />
 
       <!-- <UButton
         to="https://github.com/nuxt-ui-pro/saas"
