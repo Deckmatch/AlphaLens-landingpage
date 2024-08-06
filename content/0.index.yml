@@ -17,7 +17,7 @@ hero:
       icon: i-heroicons-arrow-long-right-solid
       size: xl
       color: black
-      to: #
+      to: https://deckmatch.com
       target: _blank
       trailing: true
 
@@ -137,3 +137,4 @@ faq:
       content: Our data is sourced from multiple reliable channels and processed using advanced AI algorithms, ensuring high accuracy.
     - label: How often is the data updated?
       content: Our platform provides real-time updates, ensuring you always have the most cur
+
