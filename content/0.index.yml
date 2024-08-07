@@ -76,28 +76,7 @@ sections:
         description: Quickly adjust your strategy based on new data
         icon: i-heroicons-arrows-right-left
 
-features:
-  title: Why use our service?
-  description: Our comprehensive suite of tools gives you the edge in today's competitive market.
-  items:
-    - title: Easy to use
-      description: Intuitive interface designed for quick adoption and seamless integration.
-      icon: i-heroicons-cursor-arrow-rays
-    - title: Reliable
-      description: Consistently deliver accurate and up-to-date competitive intelligence.
-      icon: i-heroicons-shield-check
-    - title: Secure
-      description: Your data is protected with enterprise-grade security measures.
-      icon: i-heroicons-lock-closed
-    - title: Fast
-      description: Get real-time insights to stay ahead of market changes.
-      icon: i-heroicons-bolt
-    - title: Affordable
-      description: Competitive pricing to fit businesses of all sizes.
-      icon: i-heroicons-currency-dollar
-    - title: Scalable
-      description: Our solution grows with your business needs.
-      icon: i-heroicons-arrow-trending-up
+
 
 testimonials:
   headline: What founders are saying
@@ -137,4 +116,3 @@ faq:
       content: Our data is sourced from multiple reliable channels and processed using advanced AI algorithms, ensuring high accuracy.
     - label: How often is the data updated?
       content: Our platform provides real-time updates, ensuring you always have the most cur
-
