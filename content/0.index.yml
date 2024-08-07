@@ -32,7 +32,7 @@ sections:
     features:
       - name: Pinpoint
         description: Identify key competitors in your space
-        icon: i-heroicons-pointing-in-solid
+        icon: i-heroicons-chart-bar
       - name: Analyze
         description: Dig deep into competitor strategies and tactics
         icon: i-heroicons-chart-bar
